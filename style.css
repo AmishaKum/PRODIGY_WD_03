@@ -1,0 +1,51 @@
+
+ 
+  
+ 
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+        background-color: #a2d5c6;
+      
+  }
+  h1 {
+    text-align: center;
+   color: #094c55;
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .cell {
+    background-color: #077b8a;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+  }
+    .cell.X {
+        color: #077b8a;
+      }
+      
+      .cell.O {
+        color: #077b8a;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #094c55;
+  }
+    
